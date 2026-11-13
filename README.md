@@ -4,6 +4,9 @@ Scientific software developer in Vienna, working on **3D imaging, medical CT and
 I trained as a biological and forensic anthropologist, and I now build the tools I used to need:
 CT segmentation, automated 3D landmarking, and tested, transparent geometric morphometrics.
 
+**Open to new roles** in medical imaging, biomedical data science and scientific software,
+in Vienna or remote. Reach me through [gbravomorante.dev](https://gbravomorante.dev/contact/).
+
 **What I'm working on**
 
 - An automated 3D landmarking pipeline that goes from CT and surface scans to analysis-ready
