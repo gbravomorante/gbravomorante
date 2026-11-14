@@ -11,7 +11,7 @@ in Vienna or remote. Reach me through [gbravomorante.dev](https://gbravomorante.
 
 - An automated 3D landmarking pipeline that goes from CT and surface scans to analysis-ready
   landmarks: bone segmentation, multi-template deformable registration on the GPU, and an
-  uncertainty-ranked review queue. In an early leave-one-out benchmark (13 specimens, 156 registrations),
+  uncertainty-ranked review queue. In a leave-one-out registration benchmark (13 annotated specimens, 156 registrations),
   mean landmark error fell from 11.38 mm with one deformable template to 5.86 mm with 12-template consensus.
   The full desktop workflow and study data are private.
 - A desktop application for geometric morphometrics, for research and teaching. Its
@@ -22,7 +22,7 @@ in Vienna or remote. Reach me through [gbravomorante.dev](https://gbravomorante.
 | Project | What it is |
 | --- | --- |
 | [**gmm-core**](https://github.com/gbravomorante/gmm-core) | Geometric morphometrics in Python: importers for several common landmark formats, Procrustes analysis, quality control and RRPP-based shape statistics. About 300 tests. |
-| [**torch-cpd**](https://github.com/gbravomorante/torch-cpd) | Non-rigid Coherent Point Drift in PyTorch, checked against pycpd. In a 3,000-point benchmark, the deformable step took 118.7 s with pycpd and about 2 s on an RTX 4080 SUPER. |
+| [**torch-cpd**](https://github.com/gbravomorante/torch-cpd) | Non-rigid Coherent Point Drift in PyTorch, checked against pycpd. At 3,000 points per cloud and 150 iterations, the deformable step took 118.7 s with pycpd and about 2 s on an RTX 4080 SUPER. |
 | [**partial-warp-bandpass**](https://github.com/gbravomorante/partial-warp-bandpass) | The method from my PhD ([IJLM 2021](https://doi.org/10.1007/s00414-021-02555-6)): bandpass filtering of thin-plate spline bending energy, which finds the geometric scale at which a surface tracks age. Tested, and re-run on the published data. |
 | [**fossil-forge**](https://github.com/gbravomorante/fossil-forge) | A local web workbench that turns an open fossil surface scan into a printable, checked solid while preserving the core measured surface. |
 
